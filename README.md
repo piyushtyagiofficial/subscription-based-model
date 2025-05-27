@@ -44,7 +44,7 @@ A RESTful microservice for managing user subscriptions in a SaaS platform.
 
 #### Register User
 - **POST** `/api/auth/register`
-- **Body**: `{ "name": "John Doe", "email": "john@example.com", "password": "123456" }`
+- **Body**: `{ "name": "John Doe", "email": "john@example.com", "password": "123456", "role": "user/admin" }`
 - **Response**: JWT token
 
 #### Login User
